@@ -1,0 +1,6 @@
+INSERT INTO UnsubscribeReasons ([Id], [Description], [DefaultPlapsaIntegration], [SpecificUnSubscriptionReason], [Status]) VALUES ('1', '', 'True', 'False', 'True');
+INSERT INTO UnsubscribeReasons ([Id], [Description], [DefaultPlapsaIntegration], [SpecificUnSubscriptionReason], [Status]) VALUES ('2', 'No encuentro este contenido interesante o relevante', 'False', 'False', 'True');
+INSERT INTO UnsubscribeReasons ([Id], [Description], [DefaultPlapsaIntegration], [SpecificUnSubscriptionReason], [Status]) VALUES ('3', 'Nunca me suscribí a este servicio', 'False', 'False', 'True');
+INSERT INTO UnsubscribeReasons ([Id], [Description], [DefaultPlapsaIntegration], [SpecificUnSubscriptionReason], [Status]) VALUES ('4', 'Este contenido es SPAM y debería ser reportado', 'False', 'False', 'True');
+INSERT INTO UnsubscribeReasons ([Id], [Description], [DefaultPlapsaIntegration], [SpecificUnSubscriptionReason], [Status]) VALUES ('5', 'Recibo estos emails con demasiada frecuencia', 'False', 'False', 'True');
+INSERT INTO UnsubscribeReasons ([Id], [Description], [DefaultPlapsaIntegration], [SpecificUnSubscriptionReason], [Status]) VALUES ('6', 'Otro (Por favor, especifica el motivo)', 'False', 'True', 'True');

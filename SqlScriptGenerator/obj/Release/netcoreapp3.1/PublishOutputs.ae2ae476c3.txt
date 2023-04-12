@@ -1,0 +1,11 @@
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\SqlScriptGenerator.exe
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\SqlScriptGenerator.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\SqlScriptGenerator.deps.json
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\SqlScriptGenerator.runtimeconfig.json
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\SqlScriptGenerator.pdb
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\System.Data.SqlClient.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\runtimes\win-x64\native\sni.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\runtimes\win-x86\native\sni.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\bin\Release\netcoreapp3.1\publish\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

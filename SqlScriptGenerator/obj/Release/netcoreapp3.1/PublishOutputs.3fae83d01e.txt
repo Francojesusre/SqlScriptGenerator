@@ -1,0 +1,11 @@
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\SqlScriptGenerator.exe
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\SqlScriptGenerator.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\SqlScriptGenerator.deps.json
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\SqlScriptGenerator.runtimeconfig.json
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\SqlScriptGenerator.pdb
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\System.Data.SqlClient.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\runtimes\win-arm64\native\sni.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\runtimes\win-x64\native\sni.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\runtimes\win-x86\native\sni.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Franco\Desktop\sddsdd\SqlScriptGenerator\SqlScriptGenerator\Build\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
