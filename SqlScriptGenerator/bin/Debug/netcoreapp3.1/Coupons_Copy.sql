@@ -1,3 +1,0 @@
-INSERT INTO Coupons ([Id], [ItemCode], [Amount], [ExpirationDate], [MinimumAmount], [EnabledCreditCard], [EnabledDebitCard], [UseReferredDtoAmount]) VALUES ('1016', '1', '200,00', '9/2/2023 15:32:04', '500,00', 'False', 'False', 'False');
-INSERT INTO Coupons ([Id], [ItemCode], [Amount], [ExpirationDate], [MinimumAmount], [EnabledCreditCard], [EnabledDebitCard], [UseReferredDtoAmount]) VALUES ('1025', '1', '200,00', '13/2/2023 12:30:46', '500,00', 'False', 'False', 'False');
-INSERT INTO Coupons ([Id], [ItemCode], [Amount], [ExpirationDate], [MinimumAmount], [EnabledCreditCard], [EnabledDebitCard], [UseReferredDtoAmount]) VALUES ('1026', '1', '150,00', '13/2/2023 15:20:12', '500,00', 'False', 'False', 'False');

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m0KCNLFVGGV3XFZ1xySiAIU/VUqAUGHP6pwkubfoPwu9Dsdlex6dy4UL8KFcH7wnkZbWZuruLd7xrsewBhbnfQ==",
+  "dgSpecHash": "b+d7HD03cU+OimWuYTXjxPbTi9phZKTi6xMueeNwinfPxdCzYLWijXiR0toaGcAlAIgsbPBqw5MiCB7GY0NHYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Franco\\Desktop\\sddsdd\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj",
+  "projectFilePath": "C:\\Users\\Franco\\Desktop\\Tools\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Franco\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Franco\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

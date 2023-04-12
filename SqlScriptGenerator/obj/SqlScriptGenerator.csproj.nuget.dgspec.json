@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Franco\\Desktop\\sddsdd\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj": {}
+    "C:\\Users\\Franco\\Desktop\\Tools\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Franco\\Desktop\\sddsdd\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj": {
+    "C:\\Users\\Franco\\Desktop\\Tools\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Franco\\Desktop\\sddsdd\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj",
+        "projectUniqueName": "C:\\Users\\Franco\\Desktop\\Tools\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj",
         "projectName": "SqlScriptGenerator",
-        "projectPath": "C:\\Users\\Franco\\Desktop\\sddsdd\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj",
+        "projectPath": "C:\\Users\\Franco\\Desktop\\Tools\\SqlScriptGenerator\\SqlScriptGenerator\\SqlScriptGenerator.csproj",
         "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Franco\\Desktop\\sddsdd\\SqlScriptGenerator\\SqlScriptGenerator\\obj\\",
+        "outputPath": "C:\\Users\\Franco\\Desktop\\Tools\\SqlScriptGenerator\\SqlScriptGenerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",

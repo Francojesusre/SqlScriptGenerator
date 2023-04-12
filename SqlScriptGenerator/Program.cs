@@ -18,36 +18,41 @@ class Program
         do
         {
             Console.Write("Ingrese ServerName: ");
+            Console.Out.Flush();
             serverName = Console.ReadLine();
         } while (string.IsNullOrEmpty(serverName));
         do
         {
             Console.Write("Ingrese nombre de la tabla: ");
+            Console.Out.Flush();
             databaseName = Console.ReadLine();
         } while (string.IsNullOrEmpty(databaseName));
         do
         {
             Console.Write("Ingrese cantidad de fila a guardar: ");
+            Console.Out.Flush();
             countRows = Console.ReadLine();
         } while (string.IsNullOrEmpty(countRows));
 
         do
         {
-            Console.Write("Tiene usuario y password? (si/no): ");
+            Console.Write("Tiene usuario y password? (s/n): ");
+            Console.Out.Flush();
+            useUserAndPassword = Console.ReadLine().ToLower();
+        } while (useUserAndPassword != "s" && useUserAndPassword != "n");
 
-            useUserAndPassword = Console.ReadLine();
-        } while (useUserAndPassword.ToLower() != "sí" && useUserAndPassword.ToLower() != "no");
-
-        if (useUserAndPassword.ToLower() == "si")
+        if (useUserAndPassword == "s")
         {
             do
             {
                 Console.Write("Ingrese nombre de usuario: ");
+                Console.Out.Flush();
                 user = Console.ReadLine();
             } while (string.IsNullOrEmpty(user));
             do
             {
                 Console.Write("Ingrese la password: ");
+                Console.Out.Flush();
                 password = Console.ReadLine();
             } while (string.IsNullOrEmpty(password));
 
@@ -77,7 +82,7 @@ class Program
                     command = new SqlCommand($"SELECT TOP {countRows} * FROM {tableName}", connection);
                     SqlDataReader dataReader = command.ExecuteReader();
 
-                    if (dataReader.HasRows)
+                    if (dataReader.HasRows && !tableName.Contains("TMP"))
                     {
                         // Obtener información de la columna de identidad
                         command = new SqlCommand($"SELECT 1 FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'dbo' AND COLUMNPROPERTY(OBJECT_ID(TABLE_NAME), COLUMN_NAME, 'IsIdentity') = 1 AND TABLE_NAME = '{tableName}'", connection);
@@ -117,6 +122,27 @@ class Program
 
                                         values += $"'{date.ToString("yyyy/MM/dd").Replace("'", "''")}'";
 
+                                    }
+                                    else if (obj is int)
+                                    {
+                                        values += $"{obj}";
+
+                                    }
+                                    else if (obj is decimal)
+                                    {
+                                        values += $"{obj.ToString().Replace(',', '.')}";
+                                    }
+                                    else if (obj is bool)
+                                    {
+                                        var objBool = Convert.ToBoolean(obj);
+                                        if (objBool)
+                                        {
+                                            values += $"1";
+                                        }
+                                        else
+                                        {
+                                            values += $"0";
+                                        }
                                     }
                                     else
                                     {
